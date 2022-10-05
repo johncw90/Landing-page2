@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-section {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding-bottom: 140px;
+}
+
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  margin-right: 144px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.main-content {
+  display: flex;
+  gap: 195px;
+  padding-top: 100px;
+}
+
+.main-left {
+  flex-basis: 450px;
+}
+
+.header,
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-right img {
+  width: 400px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  margin-top: 52px;
+}
+
+.features-section {
+  padding-bottom: 120px;
+  font-size: 18px;
+}
+
+.features-section h3 {
+  font-size: 36px;
+  text-align: center;
+  color: #1f2937;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.feature-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.feature-boxes img {
+  border-radius: 12px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  text-align: center;
+  flex-basis: 170px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  padding: 150px;
+}
+
+.quote-box {
+  width: 790px;
+  margin: 0 auto;
+}
+
+.author {
+  color: #1f2937;
+  font-size: 24px;
+  text-align: end;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.call-box {
+  width: 1000px;
+  margin: 90px auto;
+  padding: 50px;
+  font-size: 18px;
+  font-weight: 100;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.call-main {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.call-2 {
+  align-self: center;
+  padding: 7px 32px;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 36px;
+  font-size: 18px;
+}
